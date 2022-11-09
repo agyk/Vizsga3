@@ -71,7 +71,7 @@ function search (){
     let input = document.getElementById('inputSearch');
     let filter = input.value.toUpperCase();
     for (i = 0; i < user.length; i++) {
-       let p= user[i].getElementByTagName("p")[0];
+       let p= user[i].getElementsByTagName("p")[0];
        if(p){
            txtValue = p.textContent || p.innerText;
            if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -85,6 +85,6 @@ function search (){
 
 }
 let input = document.getElementById('inputSearch');
-input.addEventListener("keyup", console.log("kk"))
+input.addEventListener("keyup", search)
 
 renderUsers()
