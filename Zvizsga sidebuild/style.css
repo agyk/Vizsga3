@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffeedf;
+    font-family: 'Space Grotesk', sans-serif;;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    color: #145434;
+    border-bottom: 1px solid #145434;
+    align-items: center;
+}
+.fa-solid.fa-bars{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 2rem;
+}
+.beer-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+   
+    
+}
+.box{
+    height: auto;
+    width: 30%;
+    background-color: #145434;
+    color: #ffeedf;
+    margin: 50px;
+    padding: 10px 25px;
+}
+.box h2{
+    font-weight: 400;
+    padding-bottom: 40px;
+    font-size: 2rem;
+
+}
+.bold{
+    font-weight: 700;
+}
+.number{
+    text-align: center;
+    position: relative;
+    background-color: #ffeedf;
+    color: #145434;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    top:-25px;
+    left:-40px;
+    border: 1px solid #145434;
+}
+
+.details{
+    background-color: #ffeedf;
+    color: #145434;
+    display: flex;
+    padding: 10px;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    left:210px ;
+    border:2px solid #145434;
+    
+}
+.fa-solid.fa-arrow-right{
+    font-size: 1.5rem;
+}
+.details p{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 40%;
+}
+
+.smalltitle{
+    border-top: 1px solid #ffeedf;
+    padding-top: 8px;
+}
